@@ -1,0 +1,5 @@
+@import url('datatables.net-dt');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
