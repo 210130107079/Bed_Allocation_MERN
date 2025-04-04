@@ -16,7 +16,7 @@ app.use(express.urlencoded({ limit: '10mb', extended: true }))
 
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://sohamtarabada2003:soham9898@cluster0.hgodl.mongodb.net/bed_db?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('')
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('Could not connect to MongoDB', err));
 
